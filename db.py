@@ -8,7 +8,7 @@ from exceptions import NonexistentDatabaseException
 def connect_db():
     """
     Connects to the SQLite database provided as a command-line argument.
-    Enables foreign key support.
+    Enables foreign key support and attempts to load the regexp extension.
     Raises:
         NonexistentDatabaseException: If the database file does not exist.
         sqlite3.Error: If there's an error connecting to the database.
@@ -26,7 +26,20 @@ def connect_db():
         conn = sqlite3.connect(db_name)
         conn.enable_load_extension(True)
         conn.execute("PRAGMA foreign_keys = ON;")
-        conn.load_extension("./regexp")
+        
+        # Cross-platform handling for loading `regexp` extension
+        import platform
+        system = platform.system()
+        try:
+            if system == "Darwin":
+                conn.load_extension("./regexp.dylib")
+            elif system == "Linux":
+                conn.load_extension("./regexp.so")
+            elif system == "Windows":
+                conn.load_extension("./regexp.dll")
+        except sqlite3.OperationalError as e:
+            print(f"Optional: Could not load regexp extension: {e}")
+        
         return conn
     except NonexistentDatabaseException as e:
         messagebox.showerror("Database Error", f"Database does not exist: {e}")
@@ -34,3 +47,4 @@ def connect_db():
     except sqlite3.Error as e:
         messagebox.showerror("Database Error", f"Error connecting to database: {e}")
         sys.exit(1)
+
