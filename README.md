@@ -3,7 +3,7 @@
 - **[amonagha](https://github.com/ardenmonaghan)**, [Arden Monaghan](https://www.linkedin.com/in/arden-monaghan/)
 - **[GaurangBhana](https://github.com/GaurangBhana)**, [Gaurang Bhana](https://www.linkedin.com/in/gaurang-bhana-42249a314/)
 - **[osu](https://github.com/osu)**, [Hasan Khan](https://www.linkedin.com/in/pashto)  
-- **[havocflipper](https://github.com/osu)**, [Rishabh Sharma](https://www.linkedin.com/in/rishabh-sharma-b5ab8522a/)
+- **havocflipper**, [Rishabh Sharma](https://www.linkedin.com/in/rishabh-sharma-b5ab8522a/)
 
 # Group Work Breakdown
 
