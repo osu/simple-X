@@ -2,9 +2,8 @@
 
 - **[amonagha](https://github.com/ardenmonaghan)**, [Arden Monaghan](https://www.linkedin.com/in/arden-monaghan/)
 - **[GaurangBhana](https://github.com/GaurangBhana)**, [Gaurang Bhana](https://www.linkedin.com/in/gaurang-bhana-42249a314/)
+- **[havocflipper](https://github.com/havocflipper)**, [Rishabh Sharma](https://www.linkedin.com/in/rishabh-sharma-b5ab8522a/)
 - **[osu](https://github.com/osu)**, [Hasan Khan](https://www.linkedin.com/in/pashto)  
-- **havocflipper**, [Rishabh Sharma](https://www.linkedin.com/in/rishabh-sharma-b5ab8522a/)
-
 # Group Work Breakdown
 
 ## Method of coordination
