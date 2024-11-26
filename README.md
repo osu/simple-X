@@ -9,6 +9,10 @@
 ## Method of coordination
 -  Discord group chat used for all communication, and we used discord calls several times to go over the mini project and used features, such as screensharing
 
+## Commit List
+
+![Commits Image](https://github.com/osu/simple-X/blob/main/src/commits.png)
+
 ## Break-down of the work items and file structure
 ```
 assignment-3-twitter/
